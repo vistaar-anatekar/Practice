@@ -1,0 +1,73 @@
+{
+	"name": "cobalt_presentation",
+	"id": "S9CS-HiNK-4C0K-xcti",
+	"lang": "en",
+	"localizations": [
+		"en"
+	],
+	"viewportScale": "1.0",
+	"media": "",
+	"clm": "spa",
+	"isCrossChapterSwipe": true,
+	"translations": "i18n/",
+	"controllers": "controllers/",
+	"components": "../node_modules/",
+	"templates": "templates/",
+	"slides": "app/",
+	"models": "data/models/",
+	"targetDevice": {
+		"device": "iPad Retina 4th Gen",
+		"dpr": 2,
+		"resolution": "2048x1536"
+	},
+	"orientation": "landscape",
+	"thumbnails": "media/images/common/thumbs/",
+	"modules": [
+		"menu",
+		"indicators"
+	],
+	"autoprefixer": {
+		"browsersList": [
+			"iOS >= 9",
+			"Android >= 4"
+		]
+	},
+	"screenshoter": {
+		"delay": 0
+	},
+	"theme": {
+		"path": "styles/themes/default"
+	},
+	"clms": {
+		"irep": {
+			"assetFileNameTemplate": "cobalt_presentation_{structure.slide.id}",
+			"customSwipe": true,
+			"swipeSensitivity": 400,
+			"vault": {
+				"presentation": {
+					"name__v": "{settings.name}",
+					"title__v": "{settings.name}"
+				},
+				"keyMessage": {
+					"name__v": "{structure.slide.name}",
+					"title__v": "{structure.slide.name}"
+				}
+			},
+			"crm": {
+				"presentation": {},
+				"keyMessage": {
+					"Name": "{structure.slide.name}",
+					"Product_vod__c": "",
+					"Description_vod__c": "{structure.slide.name}"
+				}
+			}
+		},
+		"mitouch": {
+			"assetFileNameTemplate": "cobalt_presentation_{structure.slide.id}"
+		},
+		"spa": {
+			"showLoader": false
+		}
+	},
+	"version": "0.0.1"
+}
