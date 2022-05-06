@@ -1,0 +1,15 @@
+.bg{
+    z-index: -50;
+}
+
+.logo{
+    position: absolute;
+    top: 143px;
+    left: 587px;
+}
+
+.b1{
+    position: absolute;
+    top: 337px;
+    left: 588px;
+}

@@ -1,0 +1,24 @@
+{
+    "text1-1": {
+        "name": "fadeIn",
+        "duration": 2,
+        "delay": 1,
+        "init-state": "hide"
+    },
+    "playBtn": {
+        "name": "fadeIn",
+        "duration": 1,
+        "delay": 2,
+        "init-state": "hide"
+    },
+    "open-popup": {
+        "id": "co-popup",
+        "onglobal": ""
+    },
+    "flagyl-l": {
+        "playing": true,
+        "src": "media/videos/common/flagyl-1/Flagyl-video.mp4",
+        "showControls": true,
+        "playOnSlideenter": false
+    }
+}

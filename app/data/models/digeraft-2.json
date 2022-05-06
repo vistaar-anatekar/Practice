@@ -1,0 +1,15 @@
+{
+    "logo": {
+        "name": "fadeIn",
+        "duration":3,
+        "delay": 1,
+        "init-state": "hide"
+    },
+    "b1": {
+        "name": "zoomIn",
+        "duration":1,
+        "delay": 0.5,
+        "init-state": "hide"
+    }
+
+}

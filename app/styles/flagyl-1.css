@@ -1,0 +1,39 @@
+.text1-1{
+    position: absolute;
+    top: 96px;
+    left: 263px;
+}
+
+.play{
+    position: absolute;
+    bottom: 435px;
+    left: 489px;
+}
+
+co-video.default {
+    height: 100%;
+    width: 100%;
+}
+co-popup .close-button[co-popup] co-image[co-popup] {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    width: 75%;
+    height: 75%;
+    z-index: 1;
+}
+co-popup .close-button[co-popup] co-image[co-popup] {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 75%;
+    height: 75%;
+    filter: invert(1);
+}
+co-popup {
+    top: 130px;
+    left: 60px;
+    width: 874px;
+    height: 488px;
+    position: absolute;
+}

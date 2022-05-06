@@ -1,0 +1,8 @@
+{
+    "Esgipyrin-vid": {
+        "playing": true,
+        "src": "media/videos/esgyiprin-2/Esgipyrin-video.mp4",
+        "showControls": true,
+        "playOnSlideenter":true
+    }
+}

@@ -11,21 +11,24 @@
 	<rv-template name="common-components"></rv-template>
 	<!-- /components -->
 
-	<img src="media/images/ismo/ismo-2/slide-2.jpg" height="768" width="1024" alt="">
 	<!-- styles -->
 	<link rel="stylesheet" href="styles/ismo-2.css">
 	<!-- /styles -->
 </head>
 <body>
-	<article class="slide">
+	<article class="slide"  rv-controller="common">
 		
 		<!-- layout -->
-		<rv-template name="layout"></rv-template>
+		<rv-template name="ismo-common-navigation"></rv-template>
 		<!-- /layout -->
 		
+		<img src="media/images/ismo-2/slide-2.jpg" height="768" width="1024" alt="">
 
+		<div class="home-btn">
+			<button rv-nav nav-slide="ismo-1" nav-event="tap"></button>
+		</div>
 		
-		<h1 rv-html="t.greeting"></h1>
+		<!-- <h1 rv-html="t.greeting"></h1> -->
 		
 		
 	</article>

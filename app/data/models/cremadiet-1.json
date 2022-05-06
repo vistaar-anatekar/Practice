@@ -1,0 +1,32 @@
+{
+    "rice": {
+        "name": "pulse3",
+        "duration":2,
+        "delay": 1,
+        "init-state": "hide"
+    },
+    "packshot": {
+        "name": "fadeIn",
+        "duration":4,
+        "delay": 2,
+        "init-state": "hide"
+    },
+    "logo": {
+        "name": "fadeOut",
+        "duration":2,
+        "delay": 1,
+        "init-state": "hide"
+    },
+    "side-element": {
+        "name": "fadeIn",
+        "duration":2,
+        "delay": 1,
+        "init-state": "hide"
+    },
+    "tagline": {
+        "name": "pulse",
+        "duration":2,
+        "delay": 1,
+        "init-state": "hide"
+    }
+}

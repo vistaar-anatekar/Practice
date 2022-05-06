@@ -1,0 +1,49 @@
+.packshot {
+    position: absolute;
+    top: 243px;
+    left: 206px;
+    z-index: 1;
+    display: none;
+}
+
+.bg{
+    position: absolute;
+    z-index: -1000;
+}
+
+.logo{
+    position: absolute;
+    top: 337px;
+    left: 533px;
+}
+
+.rice{
+    position: absolute;
+    top: 317px;
+    left: 34px;
+}
+
+.tagline{
+    position: absolute;
+    top: 206px;
+    left: 533px;
+}
+
+.text{
+    position: absolute;
+    top: 449px;
+    left: 531px;
+}
+
+.wheat{
+    position: absolute;
+    top: 303px;
+    left: 412px;
+}
+
+    
+.side-element{
+    position: absolute;
+    top: 151px;
+    left: 82px;
+}

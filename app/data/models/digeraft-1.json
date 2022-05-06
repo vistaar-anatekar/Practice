@@ -1,0 +1,21 @@
+{
+    "bottle": {
+        "name": "pulse",
+        "duration":3,
+        "delay": 1,
+        "init-state": "hide"
+    },
+    "logo": {
+        "name": "pulse",
+        "duration":3,
+        "delay": 2,
+        "init-state": "hide"
+    },
+    "text": {
+        "name": "fadeIn",
+        "duration":3,
+        "delay": 2,
+        "init-state": "hide"
+    }
+
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- components -->
+	<rv-template name="common-components"></rv-template>
+	<!-- /components -->
+
+	<!-- styles -->
+	<link rel="stylesheet" href="styles/digeraft-2.css">
+	<!-- /styles -->
+</head>
+<body>
+	<article class="slide" rv-controller="common">
+
+		<!-- <img src="media/images/digeraft-2/ref.jpg" width="1024" height="768"> -->
+
+		<img class="bg" src="media/images/digeraft-2/bg.jpg" width="1024" height="768">
+
+		<img class="logo" rv-animate="m.logo" src="media/images/digeraft-2/logo.png" width="349" height="146" alt="">
+
+		<img class="b1" rv-animate="m.b1" src="media/images/digeraft-2/b1.png" width="336" height="304.5" alt="">
+
+		<!-- layout -->
+		<rv-template name="digeraft-common-navigation"></rv-template>
+		<!-- /layout -->
+		
+		<div class="home-btn">
+			<button rv-nav nav-slide="digeraft-1" nav-event="tap"></button>
+		</div>
+		
+	</article>
+
+	<script src="../spa/bundle.js"></script>
+</body>
+</html>

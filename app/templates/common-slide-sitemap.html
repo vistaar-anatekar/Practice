@@ -1,0 +1,39 @@
+<link rv-component="scroller">
+
+<link rel="stylesheet" href="../node_modules/sitemap/src/css/sitemap.css">
+
+<div id="sitemap"
+	 class="sitemap"
+	 rv-controller="../node_modules/sitemap/src/js/controller"
+	 rv-class-enable="isEnable"
+	 rv-class-show="isOpen">
+
+	<!-- <button class="sitemap-open" rv-on-tap="open">Open sitemap</button> -->
+
+	<div class="wrapper">
+		<div class="thumbnails"
+			 rv-class-show="isOpen"
+			 rv-onglobal-tap="close"
+			 rv-on-swipeup="stop"
+			 rv-on-swipedown="stop">
+			<div class="scroller-wrapper">
+				<div class="scroller"
+					 rv-scroll
+					 rv-label="activeElement">
+					<button class="thumbnail"
+							rv-each-thumbnail="thumbnails"
+							rv-scroll-label="thumbnail.slide"
+							rv-style="image"
+							rv-on-tap="goto"
+							rv-class-active="thumbnail.isActive">
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Selector Icon -->
+<!-- <img src="media/images/common/grid-black.png" alt="Brand Selector" class="brand-selector brand-selector-icon-black" width="35" height="35">
+<img src="media/images/common/grid-white.png" alt="Brand Selector" class="brand-selector brand-selector-icon-white" width="35" height="35"> -->

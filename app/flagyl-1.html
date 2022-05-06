@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- components -->
+	<rv-template name="common-components"></rv-template>
+	<!-- /components -->
+
+	<!-- styles -->
+	<link rel="stylesheet" href="styles/flagyl-1.css">
+	<!-- /styles -->
+</head>
+<body>
+	<article class="slide" rv-controller="common">
+
+		<!-- layout -->
+		<rv-template name="flagyl-common-navigation"></rv-template>
+		<!-- /layout -->
+
+		<img src="media/images/flagyl-1/bg.jpg" width="1024" height="768">
+
+		<img class="play" rv-animate="m.playBtn"  rv-open-popup="m.open-popup" src="media/images/flagyl-1/play-button.png" height="60" width="60" alt="">
+
+		<co-popup class="popup" id="co-popup" model="m.popup">
+			<co-video class="default flagyl-l" id="flagyl-l" model="m.flagyl-l"></co-video>
+		</co-popup>
+
+		<img rv-animate="m.text1-1" class="text1-1" src="media/images/flagyl-1/txt1-1.png" width="499" height="164" alt="">
+		
+	</article>
+
+	<script src="../spa/bundle.js"></script>
+</body>
+</html>

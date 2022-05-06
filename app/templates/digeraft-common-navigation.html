@@ -1,0 +1,45 @@
+<img class="top" src="media/images/common/top-bar-without-api/top-blue-noapi.png" width="1024" height="50">
+
+<div class="ref-btn"></div>
+<!-- <div class="api-btn"></div> -->
+<img class="close-btn" src="media/images/common/close.png" width="50" height="50">
+<img class="ref-screen" src="media/images/digeraft-1/reference.jpg" width="1024" height="768">
+<!-- <img class="api-screen" src="media/images/common/ismo/api.jpg" width="1024" height="768"> -->
+
+<div class="home-btn">
+    <button rv-nav nav-slide="home-1" nav-event="tap"></button>
+</div>
+
+<!-- Chapter Menu -->
+<rv-template name="common-chapter-menu"></rv-template>
+<!-- /Chapter Menu -->
+
+<!-- Indicators -->
+<rv-template name="../node_modules/indicators/src/templates/indicators"></rv-template>
+<!-- /Indicators -->
+
+<style>
+.close-btn {
+    top: 249px;
+    left: 688px;
+}
+    #menu.default {
+        background-color: #2d74b9;
+    }
+    #menu.default ul li.active {
+        background-color: #4582bd;
+    }
+    .home-btn button {
+        left: 790px;
+    }
+    .ref-btn {
+        left: 895px;
+        z-index: 5;
+    }
+    .api-btn {
+     left: 901px;
+    }
+    #top{
+        z-index: 3;
+    }
+</style>

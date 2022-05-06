@@ -1,0 +1,22 @@
+.bottle{
+    position: absolute;
+    top: 412px;
+    left: 771px;
+}
+
+.logo{
+    position: absolute;
+    top: 272px;
+    left: 588px;
+}
+
+.text{
+    position: absolute;
+    top: 433px;
+    left: 589px;
+}
+
+.bg{
+    z-index: -2;
+}
+

@@ -11,23 +11,24 @@
 	<rv-template name="common-components"></rv-template>
 	<!-- /components -->
 
-	<img src="media/images/telpres/telpres-3/bg-3.jpg" height="768" width="1024" alt="">
 	<!-- styles -->
 	<link rel="stylesheet" href="styles/telpres-3.css">
 	<!-- /styles -->
 </head>
 <body>
-	<article class="slide">
+	<article class="slide"  rv-controller="common">
 		
 		<!-- layout -->
-		<rv-template name="layout"></rv-template>
+		<rv-template name="telpres-common-navigation"></rv-template>
 		<!-- /layout -->
-		
+		<img src="media/images/telpres-3/bg-3.jpg" height="768" width="1024" alt="">
 
-		
-		<h1 rv-html="t.greeting"></h1>
-		
-		
+		<div class="home-btn">
+			<button rv-nav nav-slide="telpres-2" nav-event="tap"></button>
+		</div>
+
+		<!-- <h1 rv-html="t.greeting"></h1> -->
+			
 	</article>
 
 	<script src="../spa/bundle.js"></script>

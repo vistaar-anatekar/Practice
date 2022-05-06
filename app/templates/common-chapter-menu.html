@@ -1,13 +1,13 @@
 <link rv-component="scroller">
 <link rel="stylesheet" href="../node_modules/menu/src/css/menu.css">
-<link rel="stylesheet" href="styles/common/menu.css">
-<div id="menu" class="default location-bottom"
+
+<div id="menu" class="default location-bottom" 
 	 rv-controller="../node_modules/menu/src/js/menu"
 	 rv-show="isMenuEnable"
 	 rv-class-active="true"
 	 rv-on-swipeleft="preventSlideScroll"
 	 rv-on-swiperight="preventSlideScroll"
-	 data-prevent-right-swipe="true" data-prevent-left-swipe="true" style="z-index: 5;">
+	 data-prevent-right-swipe="true" data-prevent-left-swipe="true" style="z-index: 3;">
 
 	<div class="scroll-container">
 		<ul rv-onglobal-tap="closeMenu" rv-scroll rv-label="activeMenuElement" refresh-on="slideenter" class="nav">
@@ -20,14 +20,13 @@
 				rv-html="chapter.name"></li>
 		</ul>
 	</div>
-	<div class="fill-gap-menu" rv-on-tap="toggleMenu"></div>
-	<!--option for triangle menu
-		<button class="open-menu" rv-on-tap="toggleMenu"></button>
-	-->
+	<!-- <button class="open-menu" rv-on-tap="openMenu"></button> -->
 </div>
 
-<!-- <div class="hamburgerMenu">
+<div class="hamburgerMenu">
     <div class="bar1"></div>
     <div class="bar2"></div>
     <div class="bar3"></div>
-</div> -->
+</div>
+
+<div class="debugDiv"></div>

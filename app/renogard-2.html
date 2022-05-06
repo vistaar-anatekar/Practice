@@ -14,19 +14,24 @@
 	<!-- styles -->
 	<link rel="stylesheet" href="styles/renogard-2.css">
 
-	<img src="media/images/renogard/renogard-2/slide-2.jpg" height="768" width="1024" alt="">
 	<!-- /styles -->
 </head>
 <body>
-	<article class="slide">
+	<article class="slide"  rv-controller="common">
 		
+		<img src="media/images/renogard-2/slide-2.jpg" height="768" width="1024" alt="">
+
 		<!-- layout -->
-		<rv-template name="layout"></rv-template>
+		<rv-template name="renogard-common-navigation"></rv-template>
 		<!-- /layout -->
+
+		<div class="home-btn">
+			<button rv-nav nav-slide="renogard-1" nav-event="tap"></button>
+		</div>
 		
 
 		
-		<h1 rv-html="t.greeting"></h1>
+		<!-- <h1 rv-html="t.greeting"></h1> -->
 		
 		
 	</article>
