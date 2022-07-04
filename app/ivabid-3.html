@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- components -->
+	<rv-template name="common-components"></rv-template>
+	<!-- /components -->
+
+	<!-- styles -->
+	<link rel="stylesheet" href="styles/ivabid-3.css">
+	<!-- /styles -->
+</head>
+<body>
+	<article class="slide" rv-controller="common">
+		<img src="media/images/ivabid-3/api.jpg" width="1024" height="768" alt="">
+		<img src="media/images/ivabid-3/ref2.jpg" width="1024" height="768" alt="">
+		<img class="text" rv-animate="m.text" src="media/images/ivabid-3/txt1.png" width="801" height="310" alt="">
+
+		<div class="home-btn">
+			<button rv-nav nav-slide="ivabid-2" nav-event="tap"></button>
+		</div>
+		
+		<!-- layout -->
+		<rv-template name="ivabid-common-navigation"></rv-template>
+		<!-- /layout -->
+
+		<img class="ref-screen" src="media/images/ivabid-3/ref.jpg" alt="">
+
+		
+		
+	</article>
+
+	<script src="../spa/bundle.js"></script>
+</body>
+</html>

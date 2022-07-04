@@ -1,0 +1,15 @@
+{
+    "frame-ivabid-1": {
+        "name": "fadeIn",
+        "duration":3,
+        "delay": 2,
+        "init-state": "hide"
+    },
+    "frame-ivabid-2": {
+        "name": "fadeIn",
+        "duration":3,
+        "delay": 2,
+        "init-state": "hide"
+    }
+
+}

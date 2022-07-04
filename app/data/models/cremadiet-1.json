@@ -8,7 +8,7 @@
     "packshot": {
         "name": "fadeIn",
         "duration":4,
-        "delay": 2,
+        "delay": 1,
         "init-state": "hide"
     },
     "logo": {

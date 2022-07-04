@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- components -->
+	<rv-template name="common-components"></rv-template>
+	<!-- /components -->
+
+	<!-- styles -->
+	<link rel="stylesheet" href="styles/ivabid-od-2.css">
+	<!-- /styles -->
+</head>
+<body>
+	<article class="slide" rv-controller="common">
+		
+		<img src="media/images/ivabid-od-2/bg.jpg" width="1024" height="768" alt="">
+		<!-- layout -->
+		<rv-template name="ivabid-od-common-navigation"></rv-template>
+		<!-- /layout -->
+		
+		<img class="text-1" rv-animate="m.text-ivabid-1" src="media/images/ivabid-od-2/frame1-2.png" width="258" height="389.5" alt="">
+		<img class="text-2"  rv-animate="m.text-ivabid-2" src="media/images/ivabid-od-2/frame2-2.png" width="299" height="388.5" alt="">
+		<img class="text-3"  rv-animate="m.text-ivabid-3" src="media/images/ivabid-od-2/frame3-2.png" width="200" height="363" alt="">
+
+
+		<div class="home-btn">
+			<button rv-nav nav-slide="ivabid-od-1" nav-event="tap"></button>
+		</div>
+
+		
+		<!-- <h1 rv-html="t.greeting"></h1> -->
+		
+		
+	</article>
+
+	<script src="../spa/bundle.js"></script>
+</body>
+</html>

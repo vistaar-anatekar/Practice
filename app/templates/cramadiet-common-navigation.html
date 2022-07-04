@@ -1,10 +1,10 @@
-<img class="top" src="media/images/common/top-bar-with-api/top-blue.png" width="1024" height="50">
+<img class="top" src="media/images/common/top-bar-with-home-only/blue-home.png" width="1024" height="50">
 
 <div class="ref-btn"></div>
-<div class="api-btn"></div>
+<!-- <div class="api-btn"></div> -->
 <img class="close-btn" src="media/images/common/close.png" width="50" height="50">
-<img class="ref-screen" src="media/images/common/ismo/ref.jpg" width="1024" height="768">
-<img class="api-screen" src="media/images/common/ismo/api.jpg" width="1024" height="768">
+<!-- <img class="ref-screen" src="media/images/common/cramadiet/ref.jpg" width="1024" height="768"> -->
+<!-- <img class="api-screen" src="media/images/common/ismo/api.jpg" width="1024" height="768"> -->
 
 <div class="home-btn">
     <button rv-nav nav-slide="home-1" nav-event="tap"></button>
@@ -19,26 +19,34 @@
 <!-- /Indicators -->
 
 <style>
-   .close-btn {
-    top: 78px;
-    left: 881px;
-}
+    .close-btn {
+        top: 78px;
+        left: 881px;
+    }
+
     #menu.default {
         background-color: #2d74b9;
     }
+
     #menu.default ul li.active {
         background-color: #4582bd;
     }
+
     .home-btn button {
-        left: 725px;
+        position: absolute;
+        left: 787px;
     }
+
     .ref-btn {
-        left: 827px;
+        position: absolute;
+        left: 892px;
     }
+
     .api-btn {
-     left: 901px;
+        left: 901px;
     }
-    #top{
+
+    #top {
         z-index: 3;
     }
 </style>

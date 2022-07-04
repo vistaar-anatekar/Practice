@@ -1,0 +1,8 @@
+{
+    "text-2": {
+        "name": "pulse",
+        "duration":2,
+        "delay": 1,
+        "init-state": "hide"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "tick1": {
+        "name": "pulse",
+        "duration":2,
+        "delay": 1,
+        "init-state": "hide"
+    },
+    
+    "tick2": {
+        "name": "pulse",
+        "duration":2,
+        "delay": 2,
+        "init-state": "hide"
+    },
+    "tick3": {
+        "name": "pulse",
+        "duration":2,
+        "delay": 4,
+        "init-state": "hide"
+    },
+    "cross": {
+        "name": "pulse",
+        "duration":3,
+        "delay": 3,
+        "init-state": "hide"
+    },
+    
+    "tick4": {
+        "name": "pulse",
+        "duration":2,
+        "delay": 5,
+        "init-state": "hide"
+    },
+    
+    "popup": {
+        "name": "pulse",
+        "duration":2,
+        "delay": 6,
+        "init-state": "hide"
+    }
+
+}

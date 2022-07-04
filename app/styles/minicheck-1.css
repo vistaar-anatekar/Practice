@@ -1,0 +1,36 @@
+.tick1{
+    position: absolute;
+    top: 233px;
+    left: 442px;
+}
+
+.tick2{
+    position: absolute;
+    top: 284px;
+    left: 460px;
+}
+
+.tick3{
+    position: absolute;
+    top: 398px;
+    left: 499px;
+}
+
+.cross{
+    position: absolute;
+    top: 348px;
+    left: 479px;
+}
+
+.popup{
+    position: absolute;
+    top: 429px;
+    left: 541px;
+}
+
+.tick4{
+    position: absolute;
+    top: 453px;
+    left: 516px;
+}
+

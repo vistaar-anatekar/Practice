@@ -4,7 +4,11 @@
 <div class="api-btn"></div>
 <img class="close-btn" src="media/images/common/close.png" width="50" height="50">
 <!-- <img class="ref-screen" src="media/images/common/ismo/ref.jpg" width="1024" height="768"> -->
-<img class="api-screen" src="media/images/common/esgyiprin-1/api.jpg" width="1024" height="768">
+<img class="api-screen" src="media/images/common/esgyiprin/api.jpg" width="1024" height="768">
+
+<div class="home-btn">
+    <button rv-nav nav-slide="home-1" nav-event="tap"></button>
+</div>
 
 <div class="home-btn">
     <button rv-nav nav-slide="home-1" nav-event="tap"></button>
@@ -20,17 +24,19 @@
 
 <style>
    .close-btn {
-    top: 78px;
-    left: 881px;
+    position: absolute;
+    top: 49px;
+    left: 969px;
 }
     #menu.default {
-        background-color: #2d74b9;
+        background-color:rgba(35, 35, 101, 0.973) !important;
     }
     #menu.default ul li.active {
-        background-color: #4582bd;
+        background-color: rgba(35, 35, 101, 0.973) !important;
     }
     .home-btn button {
-        left: 725px;
+        position: absolute;
+    left: 797px;
     }
     .ref-btn {
         left: 827px;
@@ -42,3 +48,4 @@
         z-index: 3;
     }
 </style>
+

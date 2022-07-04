@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- components -->
+	<rv-template name="common-components"></rv-template>
+	<!-- /components -->
+
+	<!-- styles -->
+	<link rel="stylesheet" href="styles/haem-trauma-2.css">
+	<!-- /styles -->
+</head>
+<body>
+	<article class="slide" rv-controller="haem-trauma-common">
+		
+		
+		<img src="media/images/haem-trauma-2/bg.jpg" width="1024" height="768" alt="">
+
+		<img class="dose" rv-animate="m.haem-trauma-2-dose" src="media/images/haem-trauma-2/dose.png" width="88.5" height="36.5" alt="">
+		<img class="hand popHand"  rv-animate="m.haem-trauma-2-hand" src="media/images/haem-trauma-2/hand.png" width="44.5" height="63.5" alt="">
+		
+		<img class="pop_1" src="media/images/haem-trauma-2/pop3.jpg" width="1024" height="768" alt="">
+		
+		    <div class="pop-4-close"></div>
+
+			<!-- layout -->
+		<rv-template name="haem-trauma-navigation"></rv-template>
+		<!-- /layout -->
+
+		<div class="home-btn">
+			<button rv-nav nav-slide="haem-trauma-1" nav-event="tap"></button>
+		</div>	
+	</article>
+
+	<script src="../spa/bundle.js"></script>
+</body>
+</html>

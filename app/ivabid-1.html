@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -15,21 +16,32 @@
 	<link rel="stylesheet" href="styles/ivabid-1.css">
 	<!-- /styles -->
 </head>
+
 <body>
 	<article class="slide" rv-controller="common">
+
+		<img src="media/images/ivabid-1/ref2.jpg" width="1024" height="768" alt="">
+
+		<img class="text" rv-animate="m.text" src="media/images/ivabid-1/text.png" width="585" height="265.5">
+
+
+		<img class="api-screen" src="media/images/ivabid-1/api.jpg" width="1024" height="768">
+
+		<!-- <rv-template name="layout"></rv-template> -->
+		<!-- /layout -->
 
 		<!-- layout -->
 		<rv-template name="ivabid-common-navigation"></rv-template>
 		<!-- /layout -->
-		
-		<img src="media/images/ivabid-1/ref1.jpg" width="1024" height="768" >
 
-		<img src="media/images/ivabid-1/ref2.jpg" width="1024" height="768" >
-
-		<img class="text" src="media/images/ivabid-1/text.png" width="585" height="281.5" >
+		<!-- Chapter Menu -->
+		<rv-template name="common-chapter-menu"></rv-template>
+		<!-- /Chapter Menu -->
+		<img class="close-btn" src="media/images/common/close.png" width="50" height="50">
 
 	</article>
 
 	<script src="../spa/bundle.js"></script>
 </body>
+
 </html>

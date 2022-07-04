@@ -1,0 +1,15 @@
+{
+    "ivabid-od-1-text-1": {
+        "name": "fadeIn",
+        "duration":3,
+        "delay": 2,
+        "init-state": "hide"
+    },
+    "ivabid-od-1-text-2": {
+        "name": "fadeIn",
+        "duration":3,
+        "delay": 2,
+        "init-state": "hide"
+    }
+
+}

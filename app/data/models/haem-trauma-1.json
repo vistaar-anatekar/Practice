@@ -1,0 +1,22 @@
+{
+    "haem-trauma-hand-1": {
+        "name": "fadeIn",
+        "duration":2,
+        "delay": 1,
+        "init-state": "hide"
+    },
+    "haem-trauma-hand-2": {
+        "name": "fadeIn",
+        "duration":1,
+        "delay": 1,
+        "init-state": "hide"
+    },
+     "dosage": {
+        "name": "fadeIn",
+        "duration":1,
+        "delay": 1,
+        "init-state": "hide"
+    }
+
+
+}

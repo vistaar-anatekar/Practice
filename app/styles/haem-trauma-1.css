@@ -1,0 +1,57 @@
+.dosage{
+    position: absolute;
+    top: 696px;
+    left: 865px;
+}
+
+.hand-2{
+    position: absolute;
+    top: 428px;
+    left: 934px;
+}
+
+.hand-1{
+    position: absolute;
+    top: 338px;
+    left: 933px;
+}
+
+.pop-1{
+    display: none;
+}
+.pop-2{
+    display: none;
+}
+.pop-3{
+    display: none;
+}
+
+.pop-1-close{
+    height: 40px;
+    width: 40px;
+    z-index: 3;
+    top: 79px;
+    left: 934px;
+    position: absolute;
+}
+
+.pop-2-close{
+    height: 40px;
+    width: 40px;
+    z-index: 3;
+    top: 79px;
+    left: 934px;
+    position: absolute;
+}
+
+.pop-3-close{
+    position: absolute;
+    top: 84px;
+    left: 929px;
+    width: 49px;
+    height: 44px;
+}
+
+
+
+

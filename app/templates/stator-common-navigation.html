@@ -1,0 +1,48 @@
+<img class="top" src="media/images/common/top-bar-with-api/top-orange.png" width="1024" height="50">
+
+<div class="ref-btn"></div>
+<div class="api-btn"></div>
+<img class="close-btn" src="media/images/common/close.png" width="50" height="50">
+<img class="ref-screen" src="media/images/common/stator/ref.jpg" width="1024" height="768">
+<img class="api-screen" src="media/images/common/stator/api-page-1.jpg" width="1024" height="768">
+<div class="home-btn">
+    <button rv-nav nav-slide="home-1" nav-event="tap"></button>
+</div>
+
+<!-- Chapter Menu -->
+<rv-template name="common-chapter-menu"></rv-template>
+<!-- /Chapter Menu -->
+
+<!-- Indicators -->
+<rv-template name="../node_modules/indicators/src/templates/indicators"></rv-template>
+<!-- /Indicators -->
+
+<style>
+    .close-btn {
+        position: absolute;
+        top: 272px;
+        left: 893px;
+    }
+
+    #menu.default {
+        background-color: rgb(199, 135, 16) !important;
+    }
+
+    #menu.default ul li.active {
+        background-color: rgb(199, 135, 16) !important;
+    }
+
+    .home-btn button {
+        position: absolute;
+        left: 731px;
+    }
+
+    .ref-btn {
+        position: absolute;
+        left: 837px;
+    }
+
+    .api-btn {
+        left: 901px;
+    }
+</style>

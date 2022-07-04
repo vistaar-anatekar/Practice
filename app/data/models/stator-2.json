@@ -1,0 +1,8 @@
+{
+    "logo": {
+        "name": "fadeIn",
+        "duration":3,
+        "delay": 1,
+        "init-state": "hide"
+    }
+}

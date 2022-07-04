@@ -1,148 +1,237 @@
 {
-    "slides": {
-        "cobalt": {
-            "name": "Cobalt",
-            "template": "cobalt.html"
-        },
-        "home-1": {
-            "name": "Home-1",
-            "template": "home-1.html"
-        },
-        "ismo-1": {
-            "name": "Ismo-1",
-            "template": "ismo-1.html"
-        },
-        "ismo-2": {
-            "name": "Ismo-2",
-            "template": "ismo-2.html"
-        },
-        "renogard-1": {
-            "name": "Renogard-1",
-            "template": "renogard-1.html"
-        },
-        "renogard-2": {
-            "name": "Renogard-2",
-            "template": "renogard-2.html"
-        },
-        "telpres-1": {
-            "name": "Telpres-1",
-            "template": "telpres-1.html"
-        },
-        "telpres-2": {
-            "name": "Telpres-2",
-            "template": "telpres-2.html"
-        },
-        "telpres-3": {
-            "name": "Telpres-3",
-            "template": "telpres-3.html"
-        },
-        "cremadiet-1": {
-            "name": "Cremadiet-1",
-            "template": "cremadiet-1.html"
-        },
-        "digeraft-1": {
-            "name": "Digeraft-1",
-            "template": "digeraft-1.html"
-        },
-        "digeraft-2": {
-            "name": "Digeraft-2",
-            "template": "digeraft-2.html"
-        },
-        "esgyiprin-1": {
-            "name": "Esgyiprin-1",
-            "template": "esgyiprin-1.html"
-        },
-        "esgyiprin-2": {
-            "name": "Esgyiprin-2",
-            "template": "esgyiprin-2.html"
-        },
-        "flagyl-1": {
-            "name": "Flagyl-1",
-            "template": "flagyl-1.html"
-        },
-        "ivabid-1": {
-            "name": "Ivabid-1",
-            "template": "ivabid-1.html"
-        }
+  "slides": {
+    "cobalt": {
+      "name": "Cobalt",
+      "template": "cobalt.html"
     },
-    "chapters": {
-        "main": {
-            "name": "Main chapter",
-            "content": [
-                "cobalt"
-            ]
-        },
-        "home": {
-            "name": "Home",
-            "content": [
-                "home-1"
-            ]
-        },
-        "ismo": {
-            "name": "Ismo",
-            "content": [
-                "ismo-1",
-                "ismo-2"
-            ]
-        },
-        "renogard": {
-            "name": "Renogard",
-            "content": [
-                "renogard-1",
-                "renogard-2"
-            ]
-        },
-        "telpres": {
-            "name": "Telpres",
-            "content": [
-                "telpres-1",
-                "telpres-2",
-                "telpres-3"
-            ]
-        },
-        "cramadiet": {
-            "name": "Cramadiet",
-            "content": [
-                "cremadiet-1"
-            ]
-        },
-        "digeraft": {
-            "name": "Digeraft",
-            "content": [
-                "digeraft-1",
-                "digeraft-2"
-            ]
-        },
-        "esgyiprin": {
-            "name": "Esgyiprin",
-            "content": [
-                "esgyiprin-1",
-                "esgyiprin-2"
-            ]
-        },
-        "flagyl": {
-            "name": "Flagyl",
-            "content": [
-                "flagyl-1"
-            ]
-        },
-        "ivabid": {
-            "name": "Ivabid",
-            "content": [
-                "ivabid-1"
-            ]
-        }
+    "home-1": {
+      "name": "Home-1",
+      "template": "home-1.html"
     },
-    "storyboard": [
-        "!main",
-        "home",
-        "ismo",
-        "renogard",
-        "telpres",
-        "cramadiet",
-        "digeraft",
-        "esgyiprin",
-        "flagyl",
-        "ivabid"
-    ]
+    "ismo-1": {
+      "name": "Ismo-1",
+      "template": "ismo-1.html"
+    },
+    "ismo-2": {
+      "name": "Ismo-2",
+      "template": "ismo-2.html"
+    },
+    "renogard-1": {
+      "name": "Renogard-1",
+      "template": "renogard-1.html"
+    },
+    "renogard-2": {
+      "name": "Renogard-2",
+      "template": "renogard-2.html"
+    },
+    "telpres-1": {
+      "name": "Telpres-1",
+      "template": "telpres-1.html"
+    },
+    "telpres-2": {
+      "name": "Telpres-2",
+      "template": "telpres-2.html"
+    },
+    "telpres-3": {
+      "name": "Telpres-3",
+      "template": "telpres-3.html"
+    },
+    "cremadiet-1": {
+      "name": "Cremadiet-1",
+      "template": "cremadiet-1.html"
+    },
+    "digeraft-1": {
+      "name": "Digeraft-1",
+      "template": "digeraft-1.html"
+    },
+    "digeraft-2": {
+      "name": "Digeraft-2",
+      "template": "digeraft-2.html"
+    },
+    "esgyiprin-1": {
+      "name": "Esgyiprin-1",
+      "template": "esgyiprin-1.html"
+    },
+    "esgyiprin-2": {
+      "name": "Esgyiprin-2",
+      "template": "esgyiprin-2.html"
+    },
+    "flagyl-1": {
+      "name": "Flagyl-1",
+      "template": "flagyl-1.html"
+    },
+    "ivabid-1": {
+      "name": "Ivabid-1",
+      "template": "ivabid-1.html"
+    },
+    "ivabid-2": {
+      "name": "Ivabid-2",
+      "template": "ivabid-2.html"
+    },
+    "ivabid-3": {
+      "name": "Ivabid-3",
+      "template": "ivabid-3.html"
+    },
+    "ivabid-4": {
+      "name": "Ivabid-4",
+      "template": "ivabid-4.html"
+    },
+    "haem-trauma-1": {
+      "name": "Haem-trauma-1",
+      "template": "haem-trauma-1.html"
+    },
+    "haem-trauma-2": {
+      "name": "Haem-trauma-2",
+      "template": "haem-trauma-2.html"
+    },
+    "ivabid-od-1": {
+      "name": "Ivabid-od-1",
+      "template": "ivabid-od-1.html"
+    },
+    "ivabid-od-2": {
+      "name": "Ivabid-od-2",
+      "template": "ivabid-od-2.html"
+    },
+    "ivabid-od-3": {
+      "name": "Ivabid-od-3",
+      "template": "ivabid-od-3.html"
+    },
+    "stator-1": {
+      "name": "Stator-1",
+      "template": "stator-1.html"
+    },
+    "stator-2": {
+      "name": "Stator-2",
+      "template": "stator-2.html"
+    },
+    "minicheck-1": {
+      "name": "Minicheck-1",
+      "template": "minicheck-1.html"
+    },
+    "minicheck-2": {
+      "name": "Minicheck-2",
+      "template": "minicheck-2.html"
+    },
+    "minicheck-3": {
+      "name": "Minicheck-3",
+      "template": "minicheck-3.html"
+    }
+  },
+  "chapters": {
+    "main": {
+      "name": "Main chapter",
+      "content": [
+        "cobalt"
+      ]
+    },
+    "home": {
+      "name": "Home",
+      "content": [
+        "home-1"
+      ]
+    },
+    "ismo": {
+      "name": "Ismo",
+      "content": [
+        "ismo-1",
+        "ismo-2"
+      ]
+    },
+    "renogard": {
+      "name": "Renogard",
+      "content": [
+        "renogard-1",
+        "renogard-2"
+      ]
+    },
+    "telpres": {
+      "name": "Telpres",
+      "content": [
+        "telpres-1",
+        "telpres-2",
+        "telpres-3"
+      ]
+    },
+    "cramadiet": {
+      "name": "Cramadiet",
+      "content": [
+        "cremadiet-1"
+      ]
+    },
+    "digeraft": {
+      "name": "Digeraft",
+      "content": [
+        "digeraft-1",
+        "digeraft-2"
+      ]
+    },
+    "esgyiprin": {
+      "name": "Esgyiprin",
+      "content": [
+        "esgyiprin-1",
+        "esgyiprin-2"
+      ]
+    },
+    "flagyl": {
+      "name": "Flagyl",
+      "content": [
+        "flagyl-1"
+      ]
+    },
+    "ivabid": {
+      "name": "Ivabid",
+      "content": [
+        "ivabid-1",
+        "ivabid-2",
+        "ivabid-3",
+        "ivabid-4"
+      ]
+    },
+    "haem-trauma": {
+      "name": "Haem-trauma",
+      "content": [
+        "haem-trauma-1",
+        "haem-trauma-2"
+      ]
+    },
+    "ivabid-od": {
+      "name": "Ivabid-od",
+      "content": [
+        "ivabid-od-1",
+        "ivabid-od-2",
+        "ivabid-od-3"
+      ]
+    },
+    "stator": {
+      "name": "Stator",
+      "content": [
+        "stator-1",
+        "stator-2"
+      ]
+    },
+    "minicheck": {
+      "name": "Minicheck",
+      "content": [
+        "minicheck-1",
+        "minicheck-2",
+        "minicheck-3"
+      ]
+    }
+  },
+  "storyboard": [
+    "!main",
+    "home",
+    "ismo",
+    "renogard",
+    "telpres",
+    "cramadiet",
+    "digeraft",
+    "esgyiprin",
+    "flagyl",
+    "ivabid",
+    "haem-trauma",
+    "ivabid-od",
+    "stator",
+    "minicheck"
+  ]
 }

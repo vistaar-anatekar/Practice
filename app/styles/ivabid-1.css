@@ -1,5 +1,11 @@
 .text{
     position: absolute;
-    top: 118px;
-    left: 2px;
+    top: 119px;
+}
+
+.close-btn{
+    display: none;
+    position: absolute;
+    top: 385px;
+    left: 939px;
 }

@@ -1,0 +1,53 @@
+<img class="top" src="media/images/common/top-bar-without-ref/pink.png" width="1024" height="50">
+<div class="ref-btn"></div>>
+<div class="api-btn"></div>>
+<img class="close-btn" src="media/images/common/close.png" width="50" height="50">
+<img class="ref-screen" src="media/images/common/haem-trauma/ref.jpg" width="1024" height="768">
+<img class="api-screen" src="media/images/common/ivabid-od/api.jpg" width="1024" height="768">
+
+<div class="home-btn">
+    <button rv-nav nav-slide="home-1" nav-event="tap"></button>
+</div>
+
+<!-- Chapter Menu -->
+<rv-template name="common-chapter-menu"></rv-template>
+<!-- /Chapter Menu -->
+
+<!-- Indicators -->
+<rv-template name="../node_modules/indicators/src/templates/indicators"></rv-template>
+<!-- /Indicators -->
+
+<style>
+    .close-btn {
+        position: absolute;
+        left: 933px;
+        top: 88px;
+    }
+
+    #menu.default {
+        background-color: #d2158b !important;
+    }
+
+    #menu.default ul li.active {
+        background-color: #e60f94 !important;
+    }
+
+    .home-btn button {
+        position: absolute;
+        left: 791px;
+    }
+
+    .ref-btn {
+        position: absolute;
+        left: 757px;
+    }
+
+    .api-btn {
+        position: absolute;
+        left: 900px;
+    }
+
+    #top {
+        z-index: 3;
+    }
+</style>

@@ -1,9 +1,25 @@
 const $ = require('jquery');
 var structure = require("structure");
-var sitemap = require('sitemap');
 var currentChapter = require("chapter");
 var nav = require("nav");
+
 module.exports = function (scope) {
+    $('.ref-btn').click(function (e) {
+        $(".ref-screen").show();
+        $(".close-btn,.close-btn-ref").show();
+    });
+    $('.api-btn').click(function (e) {
+        $(".api-screen").show();
+        $(".close-btn,.close-btn-api").show();
+        $("#vaf").show();
+    });
+    $('.close-btn,.close-btn-ref,.close-btn-api').click(function (e) {
+        $(".api-screen").hide();
+        $(".ref-screen").hide();
+        $(".close-btn,.close-btn-ref,.close-btn-api").hide();
+        $("#vaf").hide();
+    });
+
     // video code
     $(document).ready(function () {
         var timer = setInterval(function () {
@@ -27,97 +43,42 @@ module.exports = function (scope) {
         });
     });
     //Open Chapter Menu on Click
-    $('.skip').click(function () {
-        $('.ref').show();
+    $(document).on('click', '.hamburgerMenu', function () {
+        $(this).toggleClass("change");
+        $('#menu').toggleClass("active");
     });
-    $('.brand-selector').click(function () {
-        sitemap.open();
-    });
-    $('.ref-btn').click(function () {
-        $('.ref-screen').show();
-        $('.close-btn').show();
-        $('#vaf,.vaf-overlay').show();
-    });
-    $('.api-btn').click(function () {
-        $('.api-screen').show();
-        $('.close-btn').show();
-        $('#vaf,.vaf-overlay').show();
-    });
-    $('.close-btn,.ref-close-btn').click(function (e) {
-        $('.api-screen').hide();
-        $('.ref-screen').hide();
-        $('.close-btn').hide();
-        $('.ref-close-btn').hide();
-        $('#vaf,.vaf-overlay').hide();
-    });
-    //Psych-1 Popup
-    //popup1
-    $('.popup-1').click(function () {
-        $('.pop-1,.pop-close').show();
-    });
-    $('.pop-close').click(function () {
-        $('.pop-1,.pop-close').hide();
-    });
-    //popup2
-    $('.popup-2').click(function () {
-        $('.pop-2,.pop-close').show();
-    });
-    $('.pop-close').click(function () {
-        $('.pop-2,.pop-close').hide();
-    });
-    //popup3
-    $('.popup-3').click(function () {
-        $('.pop-3,.pop-close').show();
-    });
-    $('.pop-close').click(function () {
-        $('.pop-3,.pop-close').hide();
-    });
-    //popup4
-    $('.popup-4').click(function () {
-        $('.pop-4,.pop-close').show();
-    });
-    $('.pop-close').click(function () {
-        $('.pop-4,.pop-close').hide();
-    });
-    $('.ref-btn').click(function () {
-        $('.ref-screen,.pop-close').show();
-    });
-    $('.close-btn-ivabit-ref-2').click(function () {
-        $('.ref-screen,.pop-close').hide();
-    });
-    $('.api-btn').click(function () {
-        $('.close-btn-api-2,.pop-close').show();
-    });
-    $('.ref-btn').click(function () {
-        $('.close-btn-api-2,.pop-close').hide();
-    });
-    $('.close-btn-api-2').click(() => {
-        $('.api-screen,.close-btn-api-2').hide();
-    });
-    $('.close-btn').click(() => {
-        $('.api-screen').hide();
-        $('.close-btn-img').hide();
-    })
-    $('.api-btn').click(() => {
-        $('.close-btn').show();
-    })
-    $('.ref-btn').click(() => {
-        $('.close-btn-img,.pop-close').hide();
-    })
-    $('.api-btn').click(() => {
-        $('.close-btn-img').show();
-    })
-    $('.close-btn-img').click(() => {
-        $('.api-screen').hide();
-        $('.close-btn-img').hide();
-        $('.close-btn').hide();
-    })
+    // Dynamically Knowing Next Chapter and Moving into It
+    if ($('.lockedSlide').length > 0) {
+        // Get Current Chapter ID
+        var currentChapterId;
+        if ((currentChapter.main.id).indexOf('-v') > 0) {
+            currentChapterId = (currentChapter.main.id).split('-v')[0];
+        } else {
+            currentChapterId = currentChapter.main.id;
+        }
+        console.log('Current Chapter : ' + currentChapterId);
+        // Get Next Chapter ID
+        var nextChapterId, nextKey;
+        for (var key in structure.storyboard) {
+            if (structure.storyboard[key] == currentChapterId) {
+                nextKey = (parseInt(key) + 1).toString();
+                nextChapterId = structure.storyboard[nextKey];
+                break;
+            }
+        }
+        console.log('Next Chapter : ' + nextChapterId);
+        // Move to Next Chapters First Slide
+        $(document).on("swipeleft", function (event) {
+            nav.goto({
+                chapter: nextChapterId
+            });
+        });
+    }
 
-    $('.api-btn').click(() => {
-        $('.close-btn-api').show();
-    })
-    $('.close-btn-api').click(() => {
-        $('.api-screen').hide();
-        $('.close-btn-api').hide();
-    })
+    $('.slide').on('click', function (e) {
+        $('.skip,.skip-ref,.skip-animation,.vaf-overlay').show().css('display', 'block');
+    });
+
+
+
 };

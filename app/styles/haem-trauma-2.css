@@ -1,0 +1,33 @@
+.dose{
+    position: absolute;
+    top: 685px;
+    left: 864px;
+}
+
+.hand{
+    position: absolute;
+    top: 376px;
+    left: 933px;
+}
+
+/* .pop-1-close{
+    position: absolute;
+    top: 200;
+    height: 40;
+    width: 40;
+    background-color: blue;
+    z-index: 4;
+} */
+
+.pop_1{
+    display: none;
+}
+
+.pop-4-close{
+    position: absolute;
+    height: 50;
+    width: 50;
+    top: 100;
+    z-index: 5;
+    background-color:blue;
+}
